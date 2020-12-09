@@ -14,6 +14,9 @@ if (num1 < num2){
   console.log(`${num1} è maggiore di ${num2}`);
 } */
 
+
+
+
 /* JSNACK 2
 L’utente inserisce due parole in successione, con due
 prompt. Il software stampa prima la parola più corta, poi la
@@ -29,6 +32,9 @@ if (word1.length < word2.length){
   console.log(`La parola più LUNGA è ${word1} poiché è lunga ${word1.length}caratteri`);
   console.log(`La parola più corta è ${word2} poiché è lunga ${word2.length}caratteri`);
 } */
+
+
+
 
 /* JSNACK 3
 Il software deve chiedere per 5 volte all’utente di inserire un
@@ -54,6 +60,10 @@ for(i = 0; i < sommaArray.length; i++){
 
 console.log(`La somma è ${somma}`); */
 
+
+
+
+
 /* JSNACK 4 
 In un array sono contenuti i nomi degli invitati alla festa del
 grande Gatsby, chiedi all’utente il suo nome e comunicagli se
@@ -76,6 +86,8 @@ if (invitatiGatsby.includes(invitato)){
 } else {
   console.log(`Mi dispiace ${invitato}, NON sei in lista`);
 } */
+
+
 
 
 
@@ -104,6 +116,8 @@ console.log(`Ecco il tuo array di numeri dispari --> ${dispariArray}`);
 
  
 
+
+
 /* JSNACK 6
 Stampa il cubo dei primi N numeri, dove N è un numero
 indicato dall’utente. */
@@ -118,6 +132,10 @@ for(let i = 1; i <= numUser; i++){
  */
 
 
+
+
+
+
 /* JSnack 7
 Stampa le potenze di 2 fino a 1000. */
 
@@ -129,6 +147,11 @@ do {
   console.log(`Due alla ${i}a è ${total}`);
   i++;
 } while (total < 1000); */
+
+
+
+
+
 
 
 /* JSnack 8
@@ -148,6 +171,10 @@ for (let i = 0; i < userNumber.length; i++){
 
 console.log(numberArray);
 console.log(sum); */
+
+
+
+
 
 /* JSnack 9
 Calcola la somma e la media dei primi 10 numeri. */
